@@ -14,8 +14,7 @@ class Iterator:
         self.index -= 1
         return result
     
-my_list = Iterator(["one", "piece", "per", "time"])
+my_list = Iterator(["one", "piece", "per", "time", "hello", "world"])
 
 for item in my_list:
     print(item)
-
